@@ -34,6 +34,7 @@ with app.setup:
 def _():
     mo.md(r"""
     [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/auspect/marimo-scripts/blob/main/notebooks/ML/decision_tree_interactive_widget.py)
+    """)
     return
 
 
