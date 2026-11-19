@@ -33,8 +33,7 @@ with app.setup:
 @app.cell(hide_code=True)
 def _():
     mo.md(r"""
-    [![Open in molab](https://molab.marimo.io/molab-shield.svg)](https://molab.marimo.io/notebooks/nb_TFy2aHLa23YYgGbsyu7s92)
-    """)
+    [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/auspect/marimo-scripts/blob/main/notebooks/ML/decision_tree_interactive_widget.py)
     return
 
 
