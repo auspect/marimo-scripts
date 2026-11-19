@@ -364,10 +364,6 @@ def _(X, max_depth, min_leaf, tree, y):
             or not same_node(our_nodes[p], theirs[p])
         ]
 
-    # claude used seed here, it usually isn't necessary because this algorithm is
-    # deterministic,
-    # but if we have multiple "best" split there's no real rule to decide,
-    # so I kept this
     def choose_seed():
         """First seed that gives the same tree; failing that, the one that differs least."""
         chosen = None
